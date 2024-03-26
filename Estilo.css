@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300;500;700&display=swap');
+
+*{margin: 0;padding: 0;}
+
+body{
+	background-color: #f0f0f0;
+}
+
+header, #img-banner{
+	width: 100%;
+	background-color: #0191a4;
+}
+
+nav{
+	background-color: #0191a4;
+	text-align: center;
+	padding: 10px;
+}
+
+a{
+	font: 1.3em 'Poppins', sans-serif;
+	text-decoration: none;
+}
+
+.menu:link, .menu:visited{
+	color: #fff;
+	margin-right: 40px;
+}
+
+.menu:hover, .menu:active{
+	color: #6ee8f8;
+}
+
+main{
+	background-color: #fff;
+	padding: 50px 100px;
+}
+
+h1, h3{
+	text-align: center;
+	color: #3f51b5;
+	font: 3.5em 'Kaushan Script', cursive;
+	margin-bottom: 20px;
+}
+
+p{
+	text-align: justify;
+	color: #777;
+	font: 1.3em 'Poppins',sans-serif;
+	font-weight: 300;
+	line-height: 1.5em;
+	margin-bottom: 1em;
+}
+
+#pag-beneficios{
+	background-color: #0191a4;
+	padding: 50px 100px;
+}
+
+h2{
+	color: #3f51b5;
+	font: 2em 'Kaushan Script', cursive;
+	margin-bottom: 20px;
+}
+
+#pag-beneficios h2, #pag-beneficios p{
+	color: #fff;
+}
+
+ ul{
+ 	list-style-position: inside;
+ 	list-style-type: circle;
+ }
+
+ li{
+ 	color: #fff;
+ 	font: 1.3em 'Poppins',sans-serif;
+ 	margin-bottom: 1em;
+ }
+
+#pag-modalidades{
+	background-color: #eeeeee;
+	padding: 50px 100px;
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.card{
+	background-color: #fff;
+	width: 24%;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #ccc;
+	transition: 1s;
+}
+
+.card:hover{
+	box-shadow: 10px 10px 10px #aaa;
+}
+
+.img-card{
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+.texto-card{
+	padding: 10px;
+}
+
+h3{
+	font-size: 2em;
+}
+
+.texto-card p{
+	font-size: 1em;
+	text-align: center;
+}
+
+#pag-treinos{
+	background-color: #fff;
+	padding: 50px 100px;
+}
+
+.texto-treinos{
+	margin-right: 100px;
+}
+
+.contatos{
+	text-align: center;
+}
+
+.contatos a{
+	color: #212121;
+}
+
+.img-contatos{
+	width: 30px;
+	margin-left: 20px;
+}
+
+video{
+	width: 400px;
+}
+
+footer{
+	background-color: #212121;
+	padding: 10px;
+}
+
+footer p, footer a{
+	color: #fff;
+	text-align: center;
+	font: 1.2em 'Poppins',sans-serif;
+	font-weight: 300;
+}
+
+/* PAG AGENDAMENTOS */
+
+#pag-agendamento{
+	background-color: #eeeeee;
+	padding: 50px 100px;
+}
+
+#pag-agendamento p{
+	text-align: center;
+}
+
+form{
+	width: 450px;
+	background-color: #fff;
+	margin: 50px auto;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #ccc;
+}
+
+label, legend{
+	font: 1.2em 'Poppins',sans-serif;
+	color: #212121;
+	font-weight: 300;
+}
+
+input, select, fieldset, textarea{
+	width: 100%;
+	padding: 6px;
+	box-sizing: border-box;
+	font: 1.2em 'Poppins',sans-serif;
+	color: #888;
+	font-weight: 300;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.dha{
+	width: 32%;
+}
+
+input[type="radio"], input[type="checkbox"]{
+	width: 30px;
+}
+
+input[type="submit"], [type="reset"]{
+	background-color: #8bc34a;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	width: 47%;
+}
+
+input[type="reset"]{
+	background-color: #f47e7e;
+}
+
+

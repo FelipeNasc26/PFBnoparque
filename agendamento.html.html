@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Felipe Nascimento"/>
+		<meta name="keywords" content="pfb,ProgressiveFitBall,FitBall,exercício ao ar liivre,parque da cidade,atividade física"/>
+		<meta name="description" content="Pratique atividade física ao ar livre de maneira ludica usando uma fitball"/>
+		<title>PFB no parque</title>
+		<link rel="stylesheet" type="text/css" href="Estilo.css"/>
+	</head>
+	<body> <!-- comentários -->
+		<header>
+			<img id="img-banner" src="img/banner.png" alt="banner do site contendo a logo do pfb ao centro com a imagem do parque da cidade ao fundo" height=""  />
+		</header>
+		<nav>
+			<a class="menu" href="index.html.html">HOME</a>
+			<a class="menu" href="index.html#pag-beneficios">BENEFÍCIOS</a>
+			<a class="menu" href="index.html#pag-modalidades">MODALIDADES</a>
+			<a class="menu" href="index.html#pag-treinos">TREINOS</a>
+			<a class="menu" href="#">AGENDAMENTOS</a>
+		</nav>
+		<section id="pag-agendamento">
+			<h1>Agendamentos</h1>
+			<p>Agende sua primeira aula grátis!</p>
+			<form>
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" name="nome" placeholder="Nome Completo" required autofocus>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" placeholder="nome@email.com">
+
+				<label  for="senha">Senha:></label>
+				<input type="password" id="senha" name="senha" placeholder="Somente números">
+
+				<label for="celular">Celular</label>
+				<input type="tel" id="celular" name="celular" placeholder="(99) 99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$">
+
+				<div class="container">
+					<div class="dha">
+						<label for="data">Data:</label>
+						<input type="date" id="data" name="data">
+					</div>
+					<div class="dha">
+						<label for="hora">Hora:</label>
+						<input type="time" id="hora" name="hora">
+					</div>
+					<div class="dha">
+						<label for="idnumber">Aulas:</label>
+						<input type="number" id="idnumber" name="idnumber" min="1" max="10" step="1">
+					</div>
+				</div>
+						
+				<label for="nível">Nível:</label>
+				<select id="nivel" name="nivel">
+					<option value="">Selecione</option>
+					<option value="iniciante">Iniciante</option>
+					<option value="basico">Básico</option>
+					<option value="intermediario">Intermediario</option>
+					<option value="avançado">Avançado</option>
+				</select>
+
+				<fieldset>
+					<legend>Gênero:</legend>
+					<input type="radio" value="masc" id="masculino" name="genero">
+					<label for="masculino">Masculino</label><br>
+					<input type="radio" value="fem" id="feminino" name="genero">
+					<label for="feminino">Feminino</label>
+				</fieldset>
+		
+				<fieldset>
+				<legend>Atividades:</legend>
+				<input type="checkbox" id="musc" name="atividade" value="musculação">
+				<label for="musc">Musculação</label><br>
+						
+				<input type="checkbox" id="pila" name="atividade" value="pilates">
+				<label for="pila">Pilates</label><br>
+						
+				<input type="checkbox" id="corri" name="atividade" value="corrida">
+				<label for="corri">Corrida</label><br>
+					
+				<input type="checkbox" id="yoga" name="atividade" value="yoga">
+				<label for="yoga">yoga</label>
+				</fieldset>
+
+				<label for="msg">Mensagem</label>
+						
+				<textarea id="msg"></textarea>
+				
+				<div class="container">
+					<input type="submit" name="Enviar" value="AGENDAR">
+					<input type="reset" name="Cancelar" value="CANCELAR">
+				</div>
+			</form>
+			</section>
+
+			<footer>
+				<p>Desenvolvido por <a href="https://www.instagram.com/felipe_nasc_" target="_blank">FELIPE NASCIMENTO</a> - 2023</p>
+			</footer>
+	</body>
+</html>
